@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Livecheck | Plain-English code reports and launch fixes for AI-built apps</title>
-<meta name="description" content="Your AI-built app is live and making money. Livecheck tells you what it's doing, in plain English, and fixes and launches sites that never made it live. Free scan, fixed prices.">
+<meta name="description" content="Your AI-built app is live and making money. Livecheck tells you what it's doing, in plain English, and fixes and launches sites that never made it live. Fixed prices from £49.">
 <meta property="og:title" content="Livecheck | Code reports and launch fixes for AI-built apps">
 <meta property="og:description" content="Your AI-built app is live and making money. Nobody knows what it's doing.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230D1117'/%3E%3Cpath d='M24 10 13 21l-5-5' fill='none' stroke='%234ADE80' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
@@ -32,7 +32,7 @@ a{color:#0D1117}a:hover{color:#12733A}
 <a href="#pricing" style="text-decoration: none; padding: 10px 0">Pricing</a>
 <a href="#about" style="text-decoration: none; padding: 10px 0">About</a>
 <a href="#faq" style="text-decoration: none; padding: 10px 0">FAQ</a>
-<a href="#submit" style="text-decoration: none; background: #0D1117; color: #FFFFFF; padding: 11px 18px; border-radius: 8px; font-weight: 600">Get a free scan</a>
+<a href="#submit" data-plan="Site Check" style="text-decoration: none; background: #0D1117; color: #FFFFFF; padding: 11px 18px; border-radius: 8px; font-weight: 600">Book a Site Check</a>
 </div>
 </nav>
 </header>
@@ -43,8 +43,8 @@ a{color:#0D1117}a:hover{color:#12733A}
 <h1 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: clamp(42px, 6vw, 72px); line-height: 1.02; letter-spacing: -0.035em">Your AI-built app is live and making money. Nobody knows what it's doing.</h1>
 <p style="margin: 0; font-size: 20px; color: #3D4652; max-width: 580px">Not you, not your freelancer, not the AI that wrote it. Livecheck reads the code running your business and tells you, in plain English, what's in there, what it's costing you and what breaks next. Every finding is tied to a file you can hand to a contractor.</p>
 <div style="display: flex; flex-wrap: wrap; gap: 12px; align-items: center">
-<a href="#submit" style="text-decoration: none; background: #12733A; color: #FFFFFF; padding: 16px 24px; border-radius: 10px; font-weight: 600; font-size: 17px">Get a Code Health Report — £500</a>
-<a href="#submit" style="text-decoration: none; border: 1px solid #0D1117; color: #0D1117; padding: 15px 22px; border-radius: 10px; font-weight: 600; font-size: 17px">Start with a free scan</a>
+<a href="#submit" data-plan="Code Health Report" style="text-decoration: none; background: #12733A; color: #FFFFFF; padding: 16px 24px; border-radius: 10px; font-weight: 600; font-size: 17px">Get a Code Health Report — £500</a>
+<a href="#submit" data-plan="Site Check" style="text-decoration: none; border: 1px solid #0D1117; color: #0D1117; padding: 15px 22px; border-radius: 10px; font-weight: 600; font-size: 17px">Start with a £49 Site Check</a>
 </div>
 <div style="display: flex; flex-wrap: wrap; gap: 8px 22px; font-size: 14px; color: #4B5563">
 <span>Fixed price, money-back guarantee</span>
@@ -91,7 +91,7 @@ a{color:#0D1117}a:hover{color:#12733A}
 <div style="display: flex; flex-direction: column; gap: 6px"><span style="font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 18px">What breaks next</span><span style="font-size: 15px; color: #9BA7B4">The ceiling you'll hit as customers grow, and the security gaps to close first.</span></div>
 <div style="display: flex; flex-direction: column; gap: 6px"><span style="font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 18px">Where to look</span><span style="font-size: 15px; color: #9BA7B4">Every claim tied to a specific file you can hand to a contractor.</span></div>
 </div>
-<div style="display: flex; flex-wrap: wrap; gap: 12px; align-items: center"><a href="#submit" style="display: inline-block; text-decoration: none; background: #4ADE80; color: #0D1117; padding: 15px 22px; border-radius: 10px; font-weight: 600">Get a Code Health Report — £500 flat</a><span style="font-size: 15px; color: #9BA7B4">Read-only access to your code. We never change anything.</span></div>
+<div style="display: flex; flex-wrap: wrap; gap: 12px; align-items: center"><a href="#submit" data-plan="Code Health Report" style="display: inline-block; text-decoration: none; background: #4ADE80; color: #0D1117; padding: 15px 22px; border-radius: 10px; font-weight: 600">Get a Code Health Report — £500 flat</a><span style="font-size: 15px; color: #9BA7B4">Read-only access to your code. We never change anything.</span></div>
 </div>
 <div style="flex: 1 1 360px; min-width: 0; display: flex; flex-direction: column; gap: 28px; padding-top: 8px">
 <div style="display: flex; flex-direction: column; gap: 6px; padding-bottom: 24px; border-bottom: 1px solid #2A313B"><span style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 44px; letter-spacing: -0.03em; color: #4ADE80">5,000</span><span style="font-size: 15px; color: #B4BFCB">of 380,000 vibe-coded apps scanned were leaking real data. RedAccess, May 2026</span></div>
@@ -121,7 +121,7 @@ a{color:#0D1117}a:hover{color:#12733A}
 <div style="background: #FFFFFF; border: 1px solid #D9DCE1; border-radius: 14px; padding: 28px; display: flex; flex-direction: column; gap: 12px"><span style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; color: #4B5563">Online but broken</span><h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 24px">Fix My Site · £295 flat</h3><p style="margin: 0; color: #3D4652">Forms, mobile layouts, speed, SEO tags and browser bugs fixed, then signed off against all seven checks. Anything beyond the seven is quoted before we start.</p></div>
 <div style="background: #FFFFFF; border: 1px solid #D9DCE1; border-radius: 14px; padding: 28px; display: flex; flex-direction: column; gap: 12px"><span style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; color: #4B5563">Works in preview, not online</span><h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 24px">Go Live · £400 flat</h3><p style="margin: 0; color: #3D4652">Domain, hosting, SSL and every error in between, handled. Live in days, not weeks, with a guide to what we set up. £600 for apps with a database and logins.</p></div>
 </div>
-<div style="display: flex; flex-wrap: wrap; gap: 12px; align-items: center"><a href="#submit" style="display: inline-block; text-decoration: none; background: #12733A; color: #FFFFFF; padding: 15px 22px; border-radius: 10px; font-weight: 600">Start with a free scan</a><span style="font-size: 15px; color: #4B5563">Find out what's wrong before you spend anything.</span></div>
+<div style="display: flex; flex-wrap: wrap; gap: 12px; align-items: center"><a href="#submit" data-plan="Site Check" style="display: inline-block; text-decoration: none; background: #12733A; color: #FFFFFF; padding: 15px 22px; border-radius: 10px; font-weight: 600">Start with a £49 Site Check</a><span style="font-size: 15px; color: #4B5563">Find out what's wrong first. The £49 comes off the fix.</span></div>
 </section>
 
 <section id="checklist" aria-labelledby="checklist-h" style="background: #FFFFFF; border-top: 1px solid #D9DCE1; border-bottom: 1px solid #D9DCE1">
@@ -131,7 +131,7 @@ a{color:#0D1117}a:hover{color:#12733A}
 <p style="margin: 0; font-family: 'IBM Plex Mono', monospace; font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; color: #12733A">The checklist</p>
 <h2 id="checklist-h" style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: clamp(32px, 4.4vw, 52px); line-height: 1.08; letter-spacing: -0.03em">Seven checks. Every one tested, fixed and signed off.</h2>
 </div>
-<p style="margin: 0; flex: 1 1 340px; max-width: 420px; color: #3D4652">The same fixed list runs on every site, so nothing gets skipped and you know exactly what you're paying for. The free scan covers all seven.</p>
+<p style="margin: 0; flex: 1 1 340px; max-width: 420px; color: #3D4652">The same fixed list runs on every site, so nothing gets skipped and you know exactly what you're paying for. The Site Check covers all seven.</p>
 </div>
 <ol style="list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1px; background: #D9DCE1; border: 1px solid #D9DCE1; border-radius: 14px; overflow: hidden">
 <li style="background: #FFFFFF; padding: 28px; display: flex; flex-direction: column; gap: 10px"><span style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #4B5563">01</span><h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 22px">Form submissions</h3><p style="margin: 0; font-size: 16px; color: #3D4652">Every form submits, validates and lands in your inbox or database.</p></li>
@@ -149,10 +149,10 @@ a{color:#0D1117}a:hover{color:#12733A}
 <section id="how" aria-labelledby="how-h" style="max-width: 1200px; margin: 0 auto; padding: 104px 24px; display: flex; flex-direction: column; gap: 48px">
 <div style="display: flex; flex-direction: column; gap: 16px; max-width: 720px">
 <p style="margin: 0; font-family: 'IBM Plex Mono', monospace; font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; color: #12733A">How it works</p>
-<h2 id="how-h" style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: clamp(32px, 4.4vw, 52px); line-height: 1.08; letter-spacing: -0.03em">Free to start. Fixed price when there's work to do.</h2>
+<h2 id="how-h" style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: clamp(32px, 4.4vw, 52px); line-height: 1.08; letter-spacing: -0.03em">Small to start. Fixed price when there's work to do.</h2>
 </div>
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 32px">
-<div style="display: flex; flex-direction: column; gap: 14px; padding-top: 24px; border-top: 3px solid #0D1117"><span style="font-family: 'IBM Plex Mono', monospace; font-size: 14px; color: #12733A">Step 1</span><h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 26px">Run the free scan</h3><p style="margin: 0; color: #3D4652">Send us your link. I check your live site against all seven and email you the top problems in plain English. No call, no card.</p></div>
+<div style="display: flex; flex-direction: column; gap: 14px; padding-top: 24px; border-top: 3px solid #0D1117"><span style="font-family: 'IBM Plex Mono', monospace; font-size: 14px; color: #12733A">Step 1</span><h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 26px">Book a Site Check</h3><p style="margin: 0; color: #3D4652">Send us your link. For £49, I check your live site against all seven and send you a plain-English report of what needs fixing. No call needed.</p></div>
 <div style="display: flex; flex-direction: column; gap: 14px; padding-top: 24px; border-top: 3px solid #0D1117"><span style="font-family: 'IBM Plex Mono', monospace; font-size: 14px; color: #12733A">Step 2</span><h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 26px">Pick the job</h3><p style="margin: 0; color: #3D4652">A Code Health Report if your app is live and earning. Fix My Site or Go Live if it isn't working or isn't online. The price is fixed and confirmed before you pay.</p></div>
 <div style="display: flex; flex-direction: column; gap: 14px; padding-top: 24px; border-top: 3px solid #0D1117"><span style="font-family: 'IBM Plex Mono', monospace; font-size: 14px; color: #12733A">Step 3</span><h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 26px">Get something you can use</h3><p style="margin: 0; color: #3D4652">Fixed code in your repository with a signed certificate, or a plain-English report you can hand straight to a contractor.</p></div>
 </div>
@@ -185,20 +185,20 @@ a{color:#0D1117}a:hover{color:#12733A}
 <div style="display: flex; flex-direction: column; gap: 16px; max-width: 720px">
 <p style="margin: 0; font-family: 'IBM Plex Mono', monospace; font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; color: #12733A">Pricing</p>
 <h2 id="pricing-h" style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: clamp(32px, 4.4vw, 52px); line-height: 1.08; letter-spacing: -0.03em">Flat prices. No discovery calls. Money back if we don't deliver.</h2>
-<p style="margin: 0; font-size: 18px; color: #3D4652">Start with the free scan. You only pay when there's a job to do, and the price is fixed before you do.</p>
+<p style="margin: 0; font-size: 18px; color: #3D4652">Start with a £49 Site Check. It comes off any paid job you book afterwards, and every price is fixed before you pay.</p>
 </div>
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; align-items: stretch">
 <div style="background: #FFFFFF; border: 1px solid #D9DCE1; border-radius: 16px; padding: 28px; display: flex; flex-direction: column; gap: 18px">
-<div style="display: flex; flex-direction: column; align-items: flex-start; gap: 8px"><span style="white-space: nowrap; font-family: 'IBM Plex Mono', monospace; font-size: 12px; background: #DCFCE7; color: #14532D; padding: 5px 10px; border-radius: 999px">Start here</span><h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 22px">Free scan</h3></div>
-<div style="display: flex; flex-direction: column; gap: 4px"><span style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 44px; letter-spacing: -0.03em">£0</span><span style="color: #4B5563; font-size: 15px">done by me, 5 a week</span></div>
-<p style="margin: 0; color: #3D4652">Find out where your site stands before you spend anything.</p>
+<div style="display: flex; flex-direction: column; align-items: flex-start; gap: 8px"><span style="white-space: nowrap; font-family: 'IBM Plex Mono', monospace; font-size: 12px; background: #DCFCE7; color: #14532D; padding: 5px 10px; border-radius: 999px">Start here</span><h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 22px">Site Check</h3></div>
+<div style="display: flex; flex-direction: column; gap: 4px"><span style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 44px; letter-spacing: -0.03em">£49</span><span style="color: #4B5563; font-size: 15px">per site, checked by hand</span></div>
+<p style="margin: 0; color: #3D4652">Find out exactly what's wrong before you commit to a fix.</p>
 <ul style="list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; font-size: 16px; flex-grow: 1">
 <li>Your live site checked against all seven</li>
-<li>The top problems, in plain English, by email</li>
-<li>Limited to 5 a week, one per site</li>
-<li>No call, no card</li>
+<li>A plain-English report of what passes and fails</li>
+<li>Which job you need, with a fixed price</li>
+<li style="font-weight: 600">Your £49 comes off any paid job</li>
 </ul>
-<a href="#submit" style="text-decoration: none; text-align: center; border: 1px solid #0D1117; color: #0D1117; padding: 14px 20px; border-radius: 10px; font-weight: 600">Get my free scan</a>
+<a href="#submit" data-plan="Site Check" style="text-decoration: none; text-align: center; border: 1px solid #0D1117; color: #0D1117; padding: 14px 20px; border-radius: 10px; font-weight: 600">Book a Site Check</a>
 </div>
 <div style="background: #FFFFFF; border: 1px solid #D9DCE1; border-radius: 16px; padding: 28px; display: flex; flex-direction: column; gap: 18px">
 <div style="display: flex; flex-direction: column; gap: 4px"><span style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; color: #4B5563">Live but broken</span><h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 22px">Fix My Site</h3></div>
@@ -212,7 +212,7 @@ a{color:#0D1117}a:hover{color:#12733A}
 <li>Signed certificate proving it passes all seven checks</li>
 </ul>
 <p style="margin: 0; font-size: 14px; color: #4B5563">Covers the seven checks. Anything else is quoted before we start.</p>
-<a href="#submit" style="text-decoration: none; text-align: center; border: 1px solid #0D1117; color: #0D1117; padding: 14px 20px; border-radius: 10px; font-weight: 600">Fix my site</a>
+<a href="#submit" data-plan="Fix My Site" style="text-decoration: none; text-align: center; border: 1px solid #0D1117; color: #0D1117; padding: 14px 20px; border-radius: 10px; font-weight: 600">Fix my site</a>
 </div>
 <div style="background: #FFFFFF; border: 1px solid #D9DCE1; border-radius: 16px; padding: 28px; display: flex; flex-direction: column; gap: 18px">
 <div style="display: flex; flex-direction: column; gap: 4px"><span style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; color: #4B5563">Finished, not online</span><h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 22px">Go Live</h3></div>
@@ -226,7 +226,7 @@ a{color:#0D1117}a:hover{color:#12733A}
 <li>A simple guide to what we set up and how to look after it</li>
 </ul>
 <p style="margin: 0; font-size: 14px; color: #4B5563">Covers getting your current build online. New features or rebuilds are quoted before we start.</p>
-<a href="#submit" style="text-decoration: none; text-align: center; border: 1px solid #0D1117; color: #0D1117; padding: 14px 20px; border-radius: 10px; font-weight: 600">Get my site live</a>
+<a href="#submit" data-plan="Go Live" style="text-decoration: none; text-align: center; border: 1px solid #0D1117; color: #0D1117; padding: 14px 20px; border-radius: 10px; font-weight: 600">Get my site live</a>
 </div>
 <div style="background: #FFFFFF; border: 2px solid #0D1117; border-radius: 16px; padding: 28px; display: flex; flex-direction: column; gap: 18px">
 <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 8px"><span style="white-space: nowrap; font-family: 'IBM Plex Mono', monospace; font-size: 12px; background: #0D1117; color: #FFFFFF; padding: 5px 10px; border-radius: 999px">Live and earning</span><h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 22px">Code Health Report</h3></div>
@@ -240,7 +240,7 @@ a{color:#0D1117}a:hover{color:#12733A}
 <li>Every claim tied to a file you can hand to a contractor</li>
 </ul>
 <p style="margin: 0; font-size: 14px; color: #4B5563">Covers one app and its repository. Any fixes are quoted separately.</p>
-<a href="#submit" style="text-decoration: none; text-align: center; background: #12733A; color: #FFFFFF; padding: 15px 20px; border-radius: 10px; font-weight: 600">Get my report</a>
+<a href="#submit" data-plan="Code Health Report" style="text-decoration: none; text-align: center; background: #12733A; color: #FFFFFF; padding: 15px 20px; border-radius: 10px; font-weight: 600">Get my report</a>
 </div>
 </div>
 <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 32px; padding: 22px 28px; border: 1px dashed #B8BEC7; border-radius: 14px">
@@ -249,12 +249,12 @@ a{color:#0D1117}a:hover{color:#12733A}
 <div style="background: #0D1117; color: #E6EDF3; border-radius: 16px; padding: 32px; display: flex; flex-wrap: wrap; gap: 28px 48px; align-items: flex-start">
 <div style="flex: 1 1 300px; display: flex; gap: 16px; align-items: flex-start">
 <span style="flex: none; width: 48px; height: 48px; border-radius: 12px; background: #4ADE80; color: #0D1117; display: flex; align-items: center; justify-content: center"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 4 6v6c0 4.5 3.4 8.3 8 9 4.6-.7 8-4.5 8-9V6l-8-3Z"></path><path d="m8.5 12 2.5 2.5 4.5-5"></path></svg></span>
-<div style="display: flex; flex-direction: column; gap: 8px"><h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 26px; line-height: 1.15">The money-back guarantee</h3><p style="margin: 0; font-size: 16px; color: #B4BFCB">Fix My Site, Go Live and Monthly Care are all covered. If we don't deliver what we promised, you get a full refund. No forms, no arguments.</p></div>
+<div style="display: flex; flex-direction: column; gap: 8px"><h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 26px; line-height: 1.15">The money-back guarantee</h3><p style="margin: 0; font-size: 16px; color: #B4BFCB">If Fix My Site or Go Live doesn't deliver what we promised, you get a full refund. Monthly Care refunds your last month if you cancel. No forms, no arguments.</p></div>
 </div>
 <ul style="flex: 2 1 520px; list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; font-size: 15px">
 <li style="display: flex; flex-direction: column; gap: 4px"><span style="font-weight: 600; color: #FFFFFF">Fix My Site</span><span style="color: #B4BFCB">If your site doesn't pass all seven checks, you don't pay.</span></li>
 <li style="display: flex; flex-direction: column; gap: 4px"><span style="font-weight: 600; color: #FFFFFF">Go Live</span><span style="color: #B4BFCB">If we can't get your site live, you get every penny back.</span></li>
-<li style="display: flex; flex-direction: column; gap: 4px"><span style="font-weight: 600; color: #FFFFFF">Monthly Care</span><span style="color: #B4BFCB">Not worth it after your first month? Full refund, and cancel any time.</span></li>
+<li style="display: flex; flex-direction: column; gap: 4px"><span style="font-weight: 600; color: #FFFFFF">Monthly Care</span><span style="color: #B4BFCB">Not worth it? Cancel any time and we'll refund your last month.</span></li>
 </ul>
 </div>
 </section>
@@ -275,7 +275,7 @@ a{color:#0D1117}a:hover{color:#12733A}
 <li style="display: flex; gap: 12px; align-items: flex-start"><span style="color: #12733A; padding-top: 3px"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg></span><span>Based in the UK</span></li>
 <li style="display: flex; gap: 12px; align-items: flex-start"><span style="color: #12733A; padding-top: 3px"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg></span><span>Built and run <a href="https://reviewsproai.com" target="_blank" rel="noopener" style="color: #12733A; font-weight: 600">Reviews Pro AI</a>, software that helps local businesses get more Google reviews</span></li>
 </ul>
-<div style="display: flex; flex-wrap: wrap; gap: 12px"><a href="#submit" style="text-decoration: none; background: #12733A; color: #FFFFFF; padding: 15px 22px; border-radius: 10px; font-weight: 600">Get a free scan</a><a href="https://www.linkedin.com/in/christopher-paul-grigg/" target="_blank" rel="noopener" style="text-decoration: none; border: 1px solid #0D1117; color: #0D1117; padding: 14px 22px; border-radius: 10px; font-weight: 600">Connect on LinkedIn</a></div>
+<div style="display: flex; flex-wrap: wrap; gap: 12px"><a href="#submit" data-plan="Site Check" style="text-decoration: none; background: #12733A; color: #FFFFFF; padding: 15px 22px; border-radius: 10px; font-weight: 600">Book a Site Check</a><a href="https://www.linkedin.com/in/christopher-paul-grigg/" target="_blank" rel="noopener" style="text-decoration: none; border: 1px solid #0D1117; color: #0D1117; padding: 14px 22px; border-radius: 10px; font-weight: 600">Connect on LinkedIn</a></div>
 </div>
 </div>
 </section>
@@ -286,13 +286,13 @@ a{color:#0D1117}a:hover{color:#12733A}
 <h2 id="faq-h" style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: clamp(32px, 4.4vw, 48px); line-height: 1.08; letter-spacing: -0.03em">Questions owners ask</h2>
 </div>
 <div style="flex: 2 1 560px; min-width: 0; display: flex; flex-direction: column">
-<details style="border-bottom: 1px solid #D9DCE1; padding: 22px 0"><summary style="cursor: pointer; font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 20px">Which one do I need?</summary><p style="margin: 12px 0 0; color: #3D4652">If your app is live and earning but you can't read the code behind it, the Code Health Report. If your site is online but broken, Fix My Site. If it works in preview but has never been online, Go Live. Not sure? Start with the free scan.</p></details>
+<details style="border-bottom: 1px solid #D9DCE1; padding: 22px 0"><summary style="cursor: pointer; font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 20px">Which one do I need?</summary><p style="margin: 12px 0 0; color: #3D4652">If your app is live and earning but you can't read the code behind it, the Code Health Report. If your site is online but broken, Fix My Site. If it works in preview but has never been online, Go Live. Not sure? Start with a £49 Site Check, and the £49 comes off whichever job you book.</p></details>
 <details style="border-bottom: 1px solid #D9DCE1; padding: 22px 0"><summary style="cursor: pointer; font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 20px">What's in a Code Health Report?</summary><p style="margin: 12px 0 0; color: #3D4652">A plain-English map of what's running inside your app, what it costs you, what will break as you grow and which security gaps to close first. Every finding points to a specific file, so you can hand it to any contractor and get an honest quote.</p></details>
 <details style="border-bottom: 1px solid #D9DCE1; padding: 22px 0"><summary style="cursor: pointer; font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 20px">Do you need access to my code?</summary><p style="margin: 12px 0 0; color: #3D4652">For a Code Health Report, read-only access to your repository. We never change anything. For Fix My Site and Go Live, we work in your repository and every fix is yours to keep.</p></details>
-<details style="border-bottom: 1px solid #D9DCE1; padding: 22px 0"><summary style="cursor: pointer; font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 20px">Is the free scan really free?</summary><p style="margin: 12px 0 0; color: #3D4652">Yes. I check your live site against all seven and email you what I find. No call, no card and no obligation to buy anything. I do these by hand, so I can only take 5 a week.</p></details>
+<details style="border-bottom: 1px solid #D9DCE1; padding: 22px 0"><summary style="cursor: pointer; font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 20px">Why does the Site Check cost £49?</summary><p style="margin: 12px 0 0; color: #3D4652">Because I check every site by hand against all seven, and that takes real time. You get a plain-English report of what passes and fails, and if you book Fix My Site, Go Live or a Code Health Report afterwards, the £49 comes off the price.</p></details>
 <details style="border-bottom: 1px solid #D9DCE1; padding: 22px 0"><summary style="cursor: pointer; font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 20px">Which builders do you work with?</summary><p style="margin: 12px 0 0; color: #3D4652">Apps and sites built with Lovable, Bolt, v0, Cursor, Replit and similar AI tools. If you're not sure, send it over and we'll tell you.</p></details>
 <details style="border-bottom: 1px solid #D9DCE1; padding: 22px 0"><summary style="cursor: pointer; font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 20px">How long does it take?</summary><p style="margin: 12px 0 0; color: #3D4652">Usually a few working days, depending on the job and what we find. You'll get a confirmed timeline before you pay, and we keep you updated until it's done.</p></details>
-<details style="border-bottom: 1px solid #D9DCE1; padding: 22px 0"><summary style="cursor: pointer; font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 20px">What if you can't fix it?</summary><p style="margin: 12px 0 0; color: #3D4652">Then you get your money back. Fix My Site, Go Live and Monthly Care all come with a money-back guarantee: if we don't deliver what we promised, you get a full refund.</p></details>
+<details style="border-bottom: 1px solid #D9DCE1; padding: 22px 0"><summary style="cursor: pointer; font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 20px">What if you can't fix it?</summary><p style="margin: 12px 0 0; color: #3D4652">Then you get your money back. If Fix My Site or Go Live doesn't deliver what we promised, you get a full refund. Monthly Care refunds your last month if you cancel.</p></details>
 <details style="border-bottom: 1px solid #D9DCE1; padding: 22px 0"><summary style="cursor: pointer; font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 20px">What happens afterwards?</summary><p style="margin: 12px 0 0; color: #3D4652">You keep everything: the fixed code, the certificate or the report. If you'd like us to keep an eye on it, Monthly Care is available at £199 a month once we've done a job for you.</p></details>
 </div>
 </section>
@@ -302,19 +302,19 @@ a{color:#0D1117}a:hover{color:#12733A}
 <div style="flex: 1 1 420px; min-width: 0; display: flex; flex-direction: column; gap: 20px">
 <p style="margin: 0; font-family: 'IBM Plex Mono', monospace; font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; color: #12733A">Get started</p>
 <h2 id="submit-h" style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: clamp(36px, 5vw, 60px); line-height: 1.04; letter-spacing: -0.035em">Find out what your app is really doing.</h2>
-<p style="margin: 0; font-size: 19px; color: #3D4652">Start with a free scan, or tell us which job you need. We'll confirm the fixed price before you pay anything.</p>
+<p style="margin: 0; font-size: 19px; color: #3D4652">Start with a £49 Site Check, or tell us which job you need. We'll confirm the fixed price and send an invoice before any work starts.</p>
 </div>
 <form action="https://formspree.io/f/xljjoprr" method="POST" style="flex: 1 1 460px; min-width: 0; background: #F4F5F7; border: 1px solid #D9DCE1; border-radius: 16px; padding: 32px; display: flex; flex-direction: column; gap: 18px">
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px">
 <label style="display: flex; flex-direction: column; gap: 6px; font-size: 14px; font-weight: 600">Your name<input type="text" name="name" autocomplete="name" style="font: inherit; font-weight: 400; font-size: 16px; padding: 12px 14px; border: 1px solid #B8BEC7; border-radius: 8px; background: #FFFFFF; color: #0D1117"></label>
 <label style="display: flex; flex-direction: column; gap: 6px; font-size: 14px; font-weight: 600">Email<input type="email" name="email" autocomplete="email" style="font: inherit; font-weight: 400; font-size: 16px; padding: 12px 14px; border: 1px solid #B8BEC7; border-radius: 8px; background: #FFFFFF; color: #0D1117"></label>
 </div>
-<label style="display: flex; flex-direction: column; gap: 6px; font-size: 14px; font-weight: 600">What do you need?<select name="service" style="font: inherit; font-weight: 400; font-size: 16px; padding: 12px 14px; border: 1px solid #B8BEC7; border-radius: 8px; background: #FFFFFF; color: #0D1117"><option>Free scan: a quick check against all seven (£0)</option><option>Code Health Report: my app is live and earning (£500)</option><option>Fix My Site: it's live but broken (£295)</option><option>Go Live: it's finished but not online (£400, or £600 with a database and logins)</option><option>Not sure yet</option></select></label>
+<label style="display: flex; flex-direction: column; gap: 6px; font-size: 14px; font-weight: 600">What do you need?<select name="service" style="font: inherit; font-weight: 400; font-size: 16px; padding: 12px 14px; border: 1px solid #B8BEC7; border-radius: 8px; background: #FFFFFF; color: #0D1117"><option value="Site Check">Site Check: find out what's wrong (£49, comes off any paid job)</option><option value="Code Health Report">Code Health Report: my app is live and earning (£500)</option><option value="Fix My Site">Fix My Site: it's live but broken (£295)</option><option value="Go Live">Go Live: it's finished but not online (£400, or £600 with a database and logins)</option><option value="Not sure yet">Not sure yet</option></select></label>
 <label style="display: flex; flex-direction: column; gap: 6px; font-size: 14px; font-weight: 600">Site, app or repo link<input type="url" name="repo" placeholder="https://" style="font: inherit; font-weight: 400; font-size: 16px; padding: 12px 14px; border: 1px solid #B8BEC7; border-radius: 8px; background: #FFFFFF; color: #0D1117"></label>
 <label style="display: flex; flex-direction: column; gap: 6px; font-size: 14px; font-weight: 600">Built with<select name="builder" style="font: inherit; font-weight: 400; font-size: 16px; padding: 12px 14px; border: 1px solid #B8BEC7; border-radius: 8px; background: #FFFFFF; color: #0D1117"><option>Lovable</option><option>Bolt</option><option>v0</option><option>Cursor</option><option>Replit</option><option>Something else</option></select></label>
 <label style="display: flex; flex-direction: column; gap: 6px; font-size: 14px; font-weight: 600">What's worrying you, or what stopped working?<textarea name="problem" rows="4" style="font: inherit; font-weight: 400; font-size: 16px; padding: 12px 14px; border: 1px solid #B8BEC7; border-radius: 8px; background: #FFFFFF; color: #0D1117; resize: vertical"></textarea></label>
 <button type="submit" style="font: inherit; font-weight: 600; font-size: 17px; background: #12733A; color: #FFFFFF; border: 0; border-radius: 10px; padding: 16px 20px; cursor: pointer">Send</button>
-<p style="margin: 0; font-size: 13px; color: #4B5563">The free scan costs nothing. Paid jobs are fixed price, confirmed before you pay, and Fix My Site and Go Live are covered by our money-back guarantee.</p>
+<p style="margin: 0; font-size: 13px; color: #4B5563">Your £49 Site Check comes off any paid job you book afterwards. Every price is fixed and confirmed before you pay, and Fix My Site and Go Live are covered by our money-back guarantee.</p>
 </form>
 </div>
 </section>
@@ -328,5 +328,13 @@ a{color:#0D1117}a:hover{color:#12733A}
 </footer>
 
 </div>
+<script>
+document.querySelectorAll('a[data-plan]').forEach(function(a){
+  a.addEventListener('click', function(){
+    var s=document.querySelector('select[name=service]');
+    if(s){ s.value=a.getAttribute('data-plan'); }
+  });
+});
+</script>
 </body>
 </html>
