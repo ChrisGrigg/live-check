@@ -125,16 +125,11 @@ a{color:#0D1117}a:hover{color:#12733A}
 </div>
 <div style="display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 16px; padding-top: 24px; border-top: 1px solid #D9DCE1"><span style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 44px; letter-spacing: -0.03em">£500 flat</span><span style="color: #3D4652">One app and its repository. Any fixes are quoted separately.</span></div>
 </div>
-<form action="https://formspree.io/f/xljjoprr" method="POST" style="flex: 1 1 420px; min-width: 0; background: #F4F5F7; border: 1px solid #D9DCE1; border-radius: 16px; padding: 32px; display: flex; flex-direction: column; gap: 18px">
-<input type="hidden" name="service" value="Code Health Report">
-<label style="display: flex; flex-direction: column; gap: 6px; font-size: 14px; font-weight: 600">Your name<input type="text" name="name" autocomplete="name" required style="font: inherit; font-weight: 400; font-size: 16px; padding: 12px 14px; border: 1px solid #B8BEC7; border-radius: 8px; background: #FFFFFF; color: #0D1117"></label>
-<label style="display: flex; flex-direction: column; gap: 6px; font-size: 14px; font-weight: 600">Email<input type="email" name="email" autocomplete="email" required style="font: inherit; font-weight: 400; font-size: 16px; padding: 12px 14px; border: 1px solid #B8BEC7; border-radius: 8px; background: #FFFFFF; color: #0D1117"></label>
-<label style="display: flex; flex-direction: column; gap: 6px; font-size: 14px; font-weight: 600">App URL<input type="url" name="app_url" placeholder="https://" required style="font: inherit; font-weight: 400; font-size: 16px; padding: 12px 14px; border: 1px solid #B8BEC7; border-radius: 8px; background: #FFFFFF; color: #0D1117"></label>
-<label style="display: flex; flex-direction: column; gap: 6px; font-size: 14px; font-weight: 600">Repository access method<select name="repo_access" required style="font: inherit; font-weight: 400; font-size: 16px; padding: 12px 14px; border: 1px solid #B8BEC7; border-radius: 8px; background: #FFFFFF; color: #0D1117"><option value="Read-only invite (GitHub, GitLab or Bitbucket)">I'll send a read-only invite (GitHub, GitLab or Bitbucket)</option><option value="Repo link plus read-only invite">I'll share a repo link plus a read-only invite</option><option value="Need help setting up access">Not sure, I'll need help setting up access</option></select></label>
-<label style="display: flex; flex-direction: column; gap: 6px; font-size: 14px; font-weight: 600">What worries you most? <span style="font-weight: 400; color: #4B5563">(optional)</span><input type="text" name="worry" style="font: inherit; font-weight: 400; font-size: 16px; padding: 12px 14px; border: 1px solid #B8BEC7; border-radius: 8px; background: #FFFFFF; color: #0D1117"></label>
-<button type="submit" style="font: inherit; font-weight: 600; font-size: 17px; background: #12733A; color: #FFFFFF; border: 0; border-radius: 10px; padding: 16px 20px; cursor: pointer">Get my Code Health Report</button>
-<p style="margin: 0; font-size: 13px; color: #4B5563">I'll confirm by email and send an invoice for £500 before I start.</p>
-</form>
+<div style="flex: 1 1 420px; min-width: 0; background: #F4F5F7; border: 1px solid #D9DCE1; border-radius: 16px; padding: 32px; display: flex; flex-direction: column; gap: 18px">
+<h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 24px">Book your report</h3>
+<p style="margin: 0; color: #3D4652">Tell me where your app lives and how you'll share the repository. I'll confirm by email and send an invoice for £500 before I start.</p>
+<a href="#submit" data-plan="Code Health Report" style="text-decoration: none; text-align: center; background: #12733A; color: #FFFFFF; padding: 16px 20px; border-radius: 10px; font-weight: 600; font-size: 17px">Get my Code Health Report</a>
+</div>
 </div>
 </section>
 
@@ -348,7 +343,8 @@ a{color:#0D1117}a:hover{color:#12733A}
 <label style="display: flex; flex-direction: column; gap: 6px; font-size: 14px; font-weight: 600">Email<input type="email" name="email" autocomplete="email" style="font: inherit; font-weight: 400; font-size: 16px; padding: 12px 14px; border: 1px solid #B8BEC7; border-radius: 8px; background: #FFFFFF; color: #0D1117"></label>
 </div>
 <label style="display: flex; flex-direction: column; gap: 6px; font-size: 14px; font-weight: 600">What do you need?<select name="service" style="font: inherit; font-weight: 400; font-size: 16px; padding: 12px 14px; border: 1px solid #B8BEC7; border-radius: 8px; background: #FFFFFF; color: #0D1117"><option value="Site Check">Site Check: find out what's wrong (£49, comes off any paid job)</option><option value="Code Health Report">Code Health Report: my app is live and earning (£500)</option><option value="Fix My Site">Fix My Site: it's live but broken (£295)</option><option value="Go Live">Go Live: it's finished but not online (£400, or £600 with a database and logins)</option><option value="Not sure yet">Not sure yet</option></select></label>
-<label style="display: flex; flex-direction: column; gap: 6px; font-size: 14px; font-weight: 600">Site, app or repo link<input type="url" name="repo" placeholder="https://" style="font: inherit; font-weight: 400; font-size: 16px; padding: 12px 14px; border: 1px solid #B8BEC7; border-radius: 8px; background: #FFFFFF; color: #0D1117"></label>
+<label style="display: flex; flex-direction: column; gap: 6px; font-size: 14px; font-weight: 600">Site or app URL<input type="url" name="site_url" placeholder="https://" style="font: inherit; font-weight: 400; font-size: 16px; padding: 12px 14px; border: 1px solid #B8BEC7; border-radius: 8px; background: #FFFFFF; color: #0D1117"></label>
+<label id="repo-access-field" style="display: flex; flex-direction: column; gap: 6px; font-size: 14px; font-weight: 600">How will you share your code?<select name="repo_access" style="font: inherit; font-weight: 400; font-size: 16px; padding: 12px 14px; border: 1px solid #B8BEC7; border-radius: 8px; background: #FFFFFF; color: #0D1117"><option value="Invite to repository">I'll invite you to the repository (GitHub, GitLab or Bitbucket)</option><option value="Repository link">I'll share a link to the repository</option><option value="Export from builder">I'll export the code from my builder (Lovable, Bolt and so on)</option><option value="Need help setting up access">Not sure, I'll need help setting up access</option></select><span style="font-weight: 400; font-size: 13px; color: #4B5563">For a Code Health Report, read-only access is enough.</span></label>
 <label style="display: flex; flex-direction: column; gap: 6px; font-size: 14px; font-weight: 600">Built with<select name="builder" style="font: inherit; font-weight: 400; font-size: 16px; padding: 12px 14px; border: 1px solid #B8BEC7; border-radius: 8px; background: #FFFFFF; color: #0D1117"><option>Lovable</option><option>Bolt</option><option>v0</option><option>Cursor</option><option>Replit</option><option>Something else</option></select></label>
 <label style="display: flex; flex-direction: column; gap: 6px; font-size: 14px; font-weight: 600">What's worrying you, or what stopped working?<textarea name="problem" rows="4" style="font: inherit; font-weight: 400; font-size: 16px; padding: 12px 14px; border: 1px solid #B8BEC7; border-radius: 8px; background: #FFFFFF; color: #0D1117; resize: vertical"></textarea></label>
 <button type="submit" style="font: inherit; font-weight: 600; font-size: 17px; background: #12733A; color: #FFFFFF; border: 0; border-radius: 10px; padding: 16px 20px; cursor: pointer">Send</button>
@@ -367,12 +363,21 @@ a{color:#0D1117}a:hover{color:#12733A}
 
 </div>
 <script>
-document.querySelectorAll('a[data-plan]').forEach(function(a){
-  a.addEventListener('click', function(){
-    var s=document.querySelector('select[name=service]');
-    if(s){ s.value=a.getAttribute('data-plan'); }
+(function(){
+  var sel=document.querySelector('select[name=service]');
+  var field=document.getElementById('repo-access-field');
+  function update(){
+    if(!sel||!field) return;
+    var hide=sel.value==='Site Check';
+    field.style.display=hide?'none':'flex';
+    field.querySelector('select').disabled=hide;
+  }
+  document.querySelectorAll('a[data-plan]').forEach(function(a){
+    a.addEventListener('click',function(){ if(sel){ sel.value=a.getAttribute('data-plan'); update(); } });
   });
-});
+  if(sel) sel.addEventListener('change',update);
+  update();
+})();
 </script>
 </body>
 </html>
